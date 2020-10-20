@@ -365,6 +365,7 @@ body:not(.user-is-tabbing) a:focus {
 @media(max-width: 300px) {
     .nav {
         font-size: var(--font-size-small);
+        
     }
 }
 
@@ -375,6 +376,7 @@ body:not(.user-is-tabbing) a:focus {
     text-decoration: none;
     color: inherit;
     transition: all .2s;
+    z-index: 9;
 }
 
 .nav__link::after {
@@ -439,17 +441,14 @@ body:not(.user-is-tabbing) a:focus {
 
 #intro-img {
     border-radius: 50%;
-    /* margin-top: 10%; */
-    /* float: right; */
-    width: 40%; 
+    width: 50%; 
 }
 
-@media(max-width: 812px) {
-    #imgDiv,#textDiv{
+@media(max-width: 823px) {
+    * #imgDiv,#textDiv{
         padding-top: 30%;
-        
         margin:0 0 5px;
-    }
+    } 
 
 }
 
