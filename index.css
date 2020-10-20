@@ -430,7 +430,6 @@ body:not(.user-is-tabbing) a:focus {
 
 #imgDiv {
     float: right;
-    /* border-radius: 50%; */
     width: 50%;
 }
 
